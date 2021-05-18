@@ -13,12 +13,17 @@
         "laravel/tinker": "^2.5"
     },
     "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.10",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
+        "pestphp/pest": "^1.2",
+        "pestphp/pest-plugin-laravel": "^1.0",
+        "phpunit/phpunit": "^9.3.3",
+        "spatie/laravel-ray": "^1.17",
+        "squizlabs/php_codesniffer": "^3.6"
     },
     "autoload": {
         "psr-4": {
@@ -42,7 +47,17 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ]
+        ],
+        "ide-helper": [
+            "@php artisan ide-helper:eloquent",
+            "@php artisan ide-helper:generate",
+            "@php artisan ide-helper:meta",
+            "@php artisan ide-helper:models --write-mixin  --env=artisan"
+        ],
+        "lint:php": "./vendor/bin/phpcs -n --standard=PSR12 ./app",
+        "lint:fix-php": "./vendor/bin/phpcbf -n --standard=PSR12 ./app",
+        "lint:js": "node node_modules/eslint/bin/eslint.js resources/js",
+        "tests:pest": "./vendor/bin/pest"
     },
     "extra": {
         "laravel": {
