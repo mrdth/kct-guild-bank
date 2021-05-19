@@ -22,6 +22,7 @@ storage/framework/laravel-excel
 .env
 .env.backup
 .env.artisan
+.env.testing
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml

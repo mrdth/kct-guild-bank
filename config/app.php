@@ -229,5 +229,5 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
+    'api_token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0YzdjZTFiZi0zNzk3LTQwNzgtOTRkZC1jZDUxYmMzOGZhZTgiLCJqdGkiOiI4MTBhNzQxYS1lNTQ1LTQ2ODYtYWJlNC1kNjIzZDNkOTQxMmYiLCJlbWFpbCI6Im1yZHRoQHpldmVudGllbi5vcmciLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoia2FyZXRoIiwiZXhwIjoxNjIzNzUyNjY5LCJpc3MiOiJodHRwOi8veW91cmRvbWFpbi5jb20iLCJhdWQiOiJodHRwOi8veW91cmRvbWFpbi5jb20ifQ.FV8rt05w5-O1WvCx-_GgTD8EO29TxPWMc0JW9R2fECU',
 ];

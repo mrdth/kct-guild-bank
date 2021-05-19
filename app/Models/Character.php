@@ -13,6 +13,8 @@ class Character extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['name', 'currency'];
+
     public function inventory(): BelongsToMany
     {
         return $this->belongsToMany(Item::class)->withPivot('quantity');

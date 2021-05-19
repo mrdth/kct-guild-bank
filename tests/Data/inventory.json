@@ -1,0 +1,132 @@
+{
+  "character": {
+    "name": "Sethkar",
+    "currency": 205175
+  },
+  "inventory": [
+    {
+      "id": 6948,
+      "quantity": 1
+    },
+    {
+      "id": 13935,
+      "quantity": 19
+    },
+    {
+      "id": 38429,
+      "quantity": 3
+    },
+    {
+      "id": 17033,
+      "quantity": 5
+    },
+    {
+      "id": 186163,
+      "quantity": 1
+    },
+    {
+      "id": 186063,
+      "quantity": 1
+    },
+    {
+      "id": 186057,
+      "quantity": 1
+    },
+    {
+      "id": 12207,
+      "quantity": 1
+    },
+    {
+      "id": 186066,
+      "quantity": 1
+    },
+    {
+      "id": 186067,
+      "quantity": 1
+    },
+    {
+      "id": 185985,
+      "quantity": 1
+    },
+    {
+      "id": 21177,
+      "quantity": 1
+    },
+    {
+      "id": 28927,
+      "quantity": 1
+    },
+    {
+      "id": 186057,
+      "quantity": 1
+    },
+    {
+      "id": 185986,
+      "quantity": 1
+    },
+    {
+      "id": 186067,
+      "quantity": 1
+    },
+    {
+      "id": 5117,
+      "quantity": 1
+    },
+    {
+      "id": 13444,
+      "quantity": 3
+    },
+    {
+      "id": 8766,
+      "quantity": 20
+    },
+    {
+      "id": 22526,
+      "quantity": 6
+    },
+    {
+      "id": 6530,
+      "quantity": 2
+    },
+    {
+      "id": 14047,
+      "quantity": 20
+    },
+    {
+      "id": 8766,
+      "quantity": 2
+    },
+    {
+      "id": 13817,
+      "quantity": 1
+    },
+    {
+      "id": 13379,
+      "quantity": 1
+    },
+    {
+      "id": 8082,
+      "quantity": 1
+    },
+    {
+      "id": 8948,
+      "quantity": 1
+    },
+    {
+      "id": 14047,
+      "quantity": 7
+    },
+    {
+      "id": 8312,
+      "quantity": 1
+    },
+    {
+      "id": 7972,
+      "quantity": 1
+    },
+    {
+      "id": 2320,
+      "quantity": 1
+    }
+  ]
+}
