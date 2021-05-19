@@ -25,7 +25,8 @@ class InventoryImporter
 
     public static function importInventory(object $import_data)
     {
-        $character = Character::firstWhere(['name' => $import_data->character->name])->first();
+        $character = Character::where(['name' => $import_data->character->name])->first();
+
         $character->inventory()->detach();
 
         collect($import_data->inventory)->each(

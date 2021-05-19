@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.currency.gold { background-repeat: no-repeat; background-position: left center; background-image: url("../images/money-gold.gif"); padding-left:1rem; }
+.currency.silver { background-repeat: no-repeat; background-position: left center; background-image: url("../images/money-silver.gif"); padding-left:1rem; }
+.currency.copper { background-repeat: no-repeat; background-position: left center; background-image: url("../images/money-copper.gif"); padding-left:1rem; }
+

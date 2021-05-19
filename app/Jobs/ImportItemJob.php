@@ -36,7 +36,7 @@ class ImportItemJob implements ShouldQueue
         ItemImporter::import($this->item_id);
 
         // Wait 2 seconds before ending so we rate limit hitting wowhead
-        sleep(2);
+        sleep(1);
     }
 
     private function checkItemExists(): bool

@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('/import', [\App\Http\Controllers\InventoryImportController::class, 'store']);
+Route::get('/temp-link', \App\Http\Controllers\TemporaryLinkController::class);
