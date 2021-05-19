@@ -15,6 +15,8 @@ class Item extends Model
 
     public $incrementing = false;
 
+    protected $fillable = ['id', 'name', 'icon', 'quality', 'class', 'sub_class'];
+
     public function owner(): BelongsToMany
     {
         return $this->belongsToMany(Character::class)->withPivot('quantity');

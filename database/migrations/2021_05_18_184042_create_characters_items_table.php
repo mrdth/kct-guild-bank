@@ -16,7 +16,7 @@ class CreateCharactersItemsTable extends Migration
         Schema::create('character_item', function (Blueprint $table) {
             $table->integer('character_id');
             $table->integer('item_id');
-            $table->integer('quantity');
+            $table->integer('quantity')->default(0);
         });
     }
 

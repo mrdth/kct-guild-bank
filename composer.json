@@ -10,7 +10,10 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.40",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "spatie/phpunit-watcher": "^1.23",
+        "ext-simplexml": "*",
+        "ext-json": "*"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.10",
@@ -54,7 +57,11 @@
         ],
         "lint:php": "./vendor/bin/phpcs -n --standard=PSR12 ./app",
         "lint:fix-php": "./vendor/bin/phpcbf -n --standard=PSR12 ./app",
-        "lint:js": "node node_modules/eslint/bin/eslint.js resources/js"
+        "lint:js": "node node_modules/eslint/bin/eslint.js resources/js",
+        "tests:watch": [
+            "Composer\\Config::disableProcessTimeout",
+            "./vendor/bin/phpunit-watcher watch < /dev/tty"
+        ]
     },
     "extra": {
         "laravel": {
