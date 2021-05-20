@@ -14,7 +14,7 @@
         <div class="flex-justify-start pt-4">
             @foreach($character->inventory as $item)
                 <span class="inline-block pr-4 mb-4">
-                    <a href="https://tbc.wowhead.com/?item={{ $item->id }}">&nbsp;{{ $item->pivot->quantity }}</a>
+                    <a href="https://tbc.wowhead.com/?item={{ $item->id }}" @if($item->suffix)rel="rand={{ $item->suffix }}"@endif>&nbsp;{{ $item->pivot->quantity }}</a>
                 </span>
             @endforeach
         </div>

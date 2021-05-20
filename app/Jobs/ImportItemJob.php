@@ -16,10 +16,12 @@ class ImportItemJob implements ShouldQueue
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
     public int $item_id;
+    public string $suffix;
 
-    public function __construct($item_id)
+    public function __construct($item_id, $suffix)
     {
         $this->item_id = $item_id;
+        $this->suffix = $suffix;
     }
 
     /**
@@ -33,7 +35,7 @@ class ImportItemJob implements ShouldQueue
             return;
         }
 
-        ItemImporter::import($this->item_id);
+        ItemImporter::import($this->item_id, $this->suffix);
 
         // Wait 2 seconds before ending so we rate limit hitting wowhead
         sleep(1);

@@ -30,7 +30,7 @@ class ItemImporterTest extends TestCase
             ]
         );
 
-        ItemImporter::import(20960);
+        ItemImporter::import(20960, '');
 
         $this->assertDatabaseCount('items', 1);
 

@@ -1,132 +1,43 @@
 {
   "character": {
-    "name": "Sethkar",
-    "currency": 205175
+    "name": "Kctbank",
+    "currency": 1589938
   },
   "inventory": [
     {
-      "id": 6948,
+      "id": 10090,
+      "itemLink": "|cff1eff00|Hitem:10090::::::1213:1885018240:5::::::::|h[Gothic Plate Helmet of the Bear]|h|r",
       "quantity": 1
     },
     {
-      "id": 13935,
-      "quantity": 19
+      "id": 14914,
+      "itemLink": "|cff1eff00|Hitem:14914::::::1198:1928035456:5::::::::|h[Jade Bracers of the Bear]|h|r",
+      "quantity": 1
     },
     {
-      "id": 38429,
-      "quantity": 3
+      "id": 14856,
+      "itemLink": "|cff1eff00|Hitem:14856::::::::5::::::::|h[Vanguard Girdle]|h|r",
+      "quantity": 1
     },
     {
-      "id": 17033,
+      "id": 10207,
+      "itemLink": "|cff1eff00|Hitem:10207::::::961:1791658880:5::::::::|h[Overlord's Crown of the Gorilla]|h|r",
+      "quantity": 1
+    },
+    {
+      "id": 15239,
+      "itemLink": "|cff1eff00|Hitem:15239::::::173:1341848064:5::::::::|h[Felstone Reaver of Agility]|h|r",
+      "quantity": 1
+    },
+    {
+      "id": 12032,
+      "itemLink": "|cff1eff00|Hitem:12032::::::2115:1125305984:5::::::::|h[Onyx Choker of Regeneration]|h|r",
+      "quantity": 1
+    },
+    {
+      "id": 2589,
+      "itemLink": "|cffffffff|Hitem:2589::::::::5::::::::|h[Linen Cloth]|h|r",
       "quantity": 5
-    },
-    {
-      "id": 186163,
-      "quantity": 1
-    },
-    {
-      "id": 186063,
-      "quantity": 1
-    },
-    {
-      "id": 186057,
-      "quantity": 1
-    },
-    {
-      "id": 12207,
-      "quantity": 1
-    },
-    {
-      "id": 186066,
-      "quantity": 1
-    },
-    {
-      "id": 186067,
-      "quantity": 1
-    },
-    {
-      "id": 185985,
-      "quantity": 1
-    },
-    {
-      "id": 21177,
-      "quantity": 1
-    },
-    {
-      "id": 28927,
-      "quantity": 1
-    },
-    {
-      "id": 186057,
-      "quantity": 1
-    },
-    {
-      "id": 185986,
-      "quantity": 1
-    },
-    {
-      "id": 186067,
-      "quantity": 1
-    },
-    {
-      "id": 5117,
-      "quantity": 1
-    },
-    {
-      "id": 13444,
-      "quantity": 3
-    },
-    {
-      "id": 8766,
-      "quantity": 20
-    },
-    {
-      "id": 22526,
-      "quantity": 6
-    },
-    {
-      "id": 6530,
-      "quantity": 2
-    },
-    {
-      "id": 14047,
-      "quantity": 20
-    },
-    {
-      "id": 8766,
-      "quantity": 2
-    },
-    {
-      "id": 13817,
-      "quantity": 1
-    },
-    {
-      "id": 13379,
-      "quantity": 1
-    },
-    {
-      "id": 8082,
-      "quantity": 1
-    },
-    {
-      "id": 8948,
-      "quantity": 1
-    },
-    {
-      "id": 14047,
-      "quantity": 7
-    },
-    {
-      "id": 8312,
-      "quantity": 1
-    },
-    {
-      "id": 7972,
-      "quantity": 1
-    },
-    {
-      "id": 2320,
-      "quantity": 1
     }
   ]
 }

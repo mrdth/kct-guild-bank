@@ -8,9 +8,12 @@ use Illuminate\Support\Facades\Http;
 
 class ItemImporter
 {
-    public static function import(int $id)
+     public static function import(int $id, $suffix)
     {
-        Item::create(static::extractItemFromXml(static::fetchXmlForItem($id)));
+        $wowhead_info = static::extractItemFromXml(static::fetchXmlForItem($id));
+        $item = array_merge($wowhead_info, ['suffix' => $suffix]);
+        ray($item);
+        Item::create($item);
     }
 
     public static function fetchXmlForItem(int $id)

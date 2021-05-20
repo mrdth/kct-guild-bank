@@ -15,7 +15,7 @@ class Item extends Model
 
     public $incrementing = false;
 
-    protected $fillable = ['id', 'name', 'icon', 'quality', 'class', 'sub_class'];
+    protected $fillable = ['id', 'name', 'icon', 'quality', 'class', 'sub_class', 'suffix'];
 
     public function owner(): BelongsToMany
     {

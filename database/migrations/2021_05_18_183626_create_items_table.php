@@ -20,6 +20,7 @@ class CreateItemsTable extends Migration
             $table->string('quality');
             $table->string('class');
             $table->string('sub_class');
+            $table->string('suffix')->nullable();
             $table->timestamps();
         });
     }

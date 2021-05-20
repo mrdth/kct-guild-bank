@@ -51,4 +51,13 @@ class InventoryImporter extends TestCase
         Queue::assertPushed(ImportItemJob::class, 31);
     }
 
+    public function test_it_can_exytract_item_suffixes()
+    {
+        $item_link = "|cff1eff00|Hitem:15239::::::173:1341848064:5::::::::|h[Felstone Reaver of Agility]|h|r";
+
+        $suffix = \App\InventoryImporter::parseSuffixFromItemLink($item_link);
+
+        $this->assertEquals(173, $suffix);
+    }
+
 }
