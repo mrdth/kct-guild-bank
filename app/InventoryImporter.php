@@ -33,7 +33,6 @@ class InventoryImporter
         collect($import_data->inventory)->each(
             function ($inventory_item) use ($character) {
                 $suffix = static::parseSuffixFromItemLink($inventory_item->itemLink);
-                ray(['item' => $inventory_item->itemLink, 'suffix' => $suffix]);
                 static::insertOrUpdateCharacterItem($character, $inventory_item);
                 if (!static::checkItemExists($inventory_item->id)) {
                     ImportItemJob::dispatch($inventory_item->id, $suffix);

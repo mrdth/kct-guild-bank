@@ -12,7 +12,6 @@ class ItemImporter
     {
         $wowhead_info = static::extractItemFromXml(static::fetchXmlForItem($id));
         $item = array_merge($wowhead_info, ['suffix' => $suffix]);
-        ray($item);
         Item::create($item);
     }
 
